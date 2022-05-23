@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    width: 350px;
+    height: 590px;
+    position: relative;
+    border: 27px solid;
+    border-image:
+    linear-gradient(
+           #ff512f,
+           #dd2476,
+           #1c64ff) 1;
+    animation: rotate
+     2.5s
+     ease-in infinite;
+}
+
+@keyframes rotate {
+    50%{
+        border-image: 
+        linear-gradient(
+            360deg,
+            #ff512f,
+            #dd2476,
+            #1c64ff) 1;
+    }
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 45px;
+    font-family: 'Rajdhani', sans-serif;
+}
+/* haut de page */
+.mysocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+    
+}
+/* photo de profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(2.png);
+    border: 5px blue solid;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 4px;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 50px;
+    border-color: crimson;
+    border: 5px crimson  solid;
+    border: 20%;
+    margin: 2px;
+}
+/* réseaux sociaux */
+/* titre des réseaux sociaux */
+.titre{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.my{
+    color: cyan;
+    font-size: 25px;
+    height: 57px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    height: 230px;
+    
+    
+}
+.items a{
+    text-decoration: none;
+}
+.items{
+    list-style-type: none;
+    background-color: cyan;
+    border-radius: 30px;
+    border: 15px tomato solid;
+
+}
+.item  a:hover{
+    color: crimson;
+    background-color: yellow;
+    width: 20px;
+    opacity: 0.7;
+    transform: scale(1.5,1.5);
+    transition:0.3s all;
+}
+/* menu fix en bas */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 93px;
+}
+.lien{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    height: 70px;
+    width: 350px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 60px;
+    width: 94px;
+    background-color: black;
+    border: crimson 4px solid;
+    border-radius: 20px;
+}
+.btn a:hover{
+    transform: scale(1.1,1.1);
+    transition:0.3s all;
+    background-color: darkgrey;
+    height: 58px;
+    width: 78px;
+}
+/* mode sombre */
+/* changeur de thème */
+
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  body {
+    
+    background-color: white;
+    color: black;
+  }
+ 
